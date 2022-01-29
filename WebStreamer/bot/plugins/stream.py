@@ -28,7 +28,7 @@ async def media_receive_handler(_, m: Message):
     stream_link = Var.URL + str(log_msg.message_id) + '/' +quote_plus(file_name) if file_name else ''
     stream_links = f"https://1.url2go.in/intresting"
     await m.reply_text(
-        text=f"url={stream_link}",
+        text=f"https://shortstreaminglink.xyz&url={stream_link}",
         quote=True,
         reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('Share me', url=)]])
     )
